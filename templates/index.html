@@ -3,7 +3,7 @@
 
 <head>
     <title>Petshop Finder</title>
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.css">
     <!-- Pustaka Leaflet -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
@@ -19,7 +19,7 @@
         integrity="sha384-PJsj/BTMqILvmcej7ulplguok8ag4xFTPryRq8xevL7eBYSmpXKcbNVuy+P0RMgq" crossorigin="anonymous">
 </head>
 
-<body">
+<body>
     <h1>Petshop Finder</h1>
     <div id="map"></div>
     <div class="container spacemap-button">
@@ -37,14 +37,9 @@
             <input id="highestRatingResult" type="text" class="form-control" placeholder="" readonly>
         </div>
     </div>
-    <div class="marq">
-        <marquee id="marqueestyle" bgcolor='#FFAE00' scrollamount="15">
-            TUGAS AKHIR KELOMPOK 8, AGIM PRATAMA__NIM: 20210302017, NOFRIYANDI__NIM: 20210302007
-        </marquee>
-    </div>
 
-    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
-    </body>
-
+    <!-- Your JavaScript Source -->
+    <script src="static/js/script.js"></script>
+</body>
 
 </html>
