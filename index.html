@@ -19,8 +19,8 @@
         integrity="sha384-PJsj/BTMqILvmcej7ulplguok8ag4xFTPryRq8xevL7eBYSmpXKcbNVuy+P0RMgq" crossorigin="anonymous">
 </head>
 
-<body>
-    <h1>Petshop Finder</h1>
+<body">
+    <h1>PETSHOP FINDER</h1>
     <div id="map"></div>
     <div class="container spacemap-button">
         <div class="button-group">
@@ -31,18 +31,34 @@
     </div>
     <div class="container spacebutton">
         <div class="button-group">
-            <button id="showHighestRatingRouteButton" type="button"
-                class="btn btn-primary btn-long btn-text-left">Petshop Rating
-                Tertinggi</button>
-            <input id="highestRatingResult" type="text" class="form-control" placeholder="" readonly>
+            <button id="showMostPopularPetshopButton" type="button"
+                class="btn btn-primary btn-long btn-text-left">Petshop Terpopuler</button>
+            <input id="mostPopularPetshopResult" type="text" class="form-control" placeholder="" readonly>
         </div>
+    </div>
+    <div class="dropdown-group">
+        <select id="petshopDropdown" class="btn btn-primary btn-longv3 btn-text-left">
+            <option value="">Pilih Petshop</option>
+            <option value="jeslyn">Jeslyn Petstore</option>
+            <option value="faith">Faith Petstore</option>
+            <option value="memow">Me-mow Petshop</option>
+            <option value="king">King Petshop & Grooming</option>
+            <option value="deyan">Deyan Petshop</option>
+            <option value="satellite">Satellite Petshop</option>
+            <option value="aulia">Aulia Home Petshop</option>
+            <option value="noah">Noah Petstore</option>
+            <option value="kenzo">Kenzo Petshop</option>
+            <option value="zoey">Zoey Petshop</option>
+        </select>
+        <button id="confirmButton" class="btn btn-primary btn-longv2">Confirm</button>
+        <button id="cancelButton" class="btn btn-primary btn-longv2">Cancel</button>
     </div>
     <div class="marq">
         <marquee id="marqueestyle" bgcolor='#FFAE00' scrollamount="15">
-            TUGAS AKHIR KELOMPOK 8, AGIM PRATAMA, NOFRIYANDI
+            TUGAS AKHIR KELOMPOK 8, AGIM PRATAMA__NIM: 20210302017, NOFRIYANDI__NIM: 20210302007
         </marquee>
     </div>
-    
+    <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
     <!-- Your JavaScript Source -->
     <script src="static/js/script.js"></script>
 </body>
