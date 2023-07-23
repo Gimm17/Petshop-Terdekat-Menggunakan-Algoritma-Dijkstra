@@ -53,6 +53,14 @@ h1 {
     width: 25%;
 }
 
+.btn-longv2 {
+    width: 10%;
+}
+
+.btn-longv3 {
+    width: 17% !important;
+}
+
 .btn-text-left {
     text-align: left !important;
     justify-content: flex-start !important;
@@ -70,17 +78,38 @@ h1 {
     white-space: nowrap;
     overflow: hidden;
 
-
     height: 60px;
 }
 
 .marq {
     margin-top: 30px;
-    margin-right: 120px;
-    margin-left: 120px;
+    margin-right: 112px;
+    margin-left: 112px;
 }
 
-@media (max-width: 1020px) {
+#petshopDropdown {
+    background-color: rgb(255, 174, 0) !important;
+    color: #28282B !important;
+    font-family: Arial, sans-serif !important;
+    font-size: 17px !important;
+    font-weight: bold !important;
+    width: 25%;
+    text-align: left !important;
+    justify-content: flex-start !important;
+}
+
+#petshopDropdown {
+    margin-top: 8px;
+    margin-left: 112px;
+}
+
+#confirmButton,
+#cancelButton {
+    margin-top: 8px;
+    margin-left: 15px;
+}
+
+@media (max-width: 1024px) {
 
     .btn-long {
         width: 40%;
@@ -91,5 +120,14 @@ h1 {
         align-items: center;
         margin-left: 33px;
         margin-right: 33px;
+    }
+
+    #petshopDropdown {
+        margin-top: 8px;
+        margin-left: 62px;
+    }
+
+    .btn-longv3 {
+        width: 24.8% !important;
     }
 }
