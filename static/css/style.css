@@ -8,13 +8,13 @@ body {
 h1 {
     color: rgb(255, 174, 0) !important;
     text-align: center;
-    margin-top: 15px !important;
+    margin-top: 10px !important;
     font-weight: bold !important;
 }
 
 #map {
     height: 450px;
-    margin-top: 25px;
+    margin-top: 17px;
     margin-right: auto;
     margin-left: auto;
     width: 85%;
@@ -82,7 +82,7 @@ h1 {
 }
 
 .marq {
-    margin-top: 30px;
+    margin-top: 25px;
     margin-right: 112px;
     margin-left: 112px;
 }
@@ -100,7 +100,7 @@ h1 {
 
 #petshopDropdown {
     margin-top: 8px;
-    margin-left: 112px;
+    margin-left: 120px;
 }
 
 #confirmButton,
